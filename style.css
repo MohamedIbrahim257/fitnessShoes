@@ -1,0 +1,85 @@
+:root{
+    --primaryColor:#1843b6;
+    --secondryColor:#df69ff;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.background-image{
+    background-image: url(./images/background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.text-layer > h2{
+    font-size: 6rem;
+}
+
+.text-layer > span{
+    font-weight: bold;
+}
+
+#About{
+    background-image: linear-gradient(to right, #1843b6, #df69ff);
+}
+
+#must-have{
+    background-color: var(--primaryColor);
+}
+
+.item >h2{
+    font-size: 40px;
+}
+
+.item-txt{
+    background-color: var(--secondryColor);
+}
+
+.social-link a{
+    padding: 0px 10px;
+}
+
+.background{
+    background-image: url(./images/Untitled1.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.text-layer-girl h2{
+font-size: 50px;
+}
+
+.order-list >h2{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+
+.order-list ol li{
+    font-size: 16px;
+}
+
+.blue-background{
+background-color: var(--primaryColor);
+
+}
+
+.item-Harness > p , h2{
+    font-size: 50px;
+}
+
+.item-list ul li{
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+@media screen  and (max-width : 600px) {
+    html {
+        font-size: 10px;
+    }
+}
